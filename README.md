@@ -2,6 +2,11 @@
 
 A C++ 20 module of Rust-like Trait.
 
+## Feature
+1. Support Dyn
+2. Support const member function
+3. No Macro
+
 ## Usage
 
 ```cpp
