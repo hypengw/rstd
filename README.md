@@ -1,8 +1,8 @@
-# Rust-like Traits for C++
+# Rust-like Trait for C++
 
-A C++ 20 module of Rust-like traits.
+A C++ 20 module of Rust-like Trait.
 
-## Usage Example
+## Usage
 
 ```cpp
 import rstd.trait;
