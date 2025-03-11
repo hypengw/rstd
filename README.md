@@ -1,13 +1,15 @@
-# Rust-like Trait for C++
+# Rust-like std for C++
 
-A C++ 20 module of Rust-like Trait.
+A C++ 20 module of Rust-like std.
 
-## Feature
+## Trait
+
+### Feature
 1. Support Dyn
 2. Support const member function
 3. No Macro
 
-## Usage
+### Usage
 
 ```cpp
 import rstd.trait;
