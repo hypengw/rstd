@@ -6,6 +6,7 @@ A C++ 20 module of Rust-like std.
 - [x] trait
 - [x] option
 - [x] result
+- [ ] convert
 - [ ] mem
 - [ ] thread
 - [ ] mpsc
