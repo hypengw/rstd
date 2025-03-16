@@ -2,7 +2,10 @@
 
 A C++ 20 module of Rust-like std.
 
-## planned
+## Compiler
+- clang 19+
+
+## Planned
 - [x] trait
 - [x] option
 - [x] result
