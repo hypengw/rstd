@@ -1,6 +1,6 @@
 # Rust-like std for C++
 
-A C++ 20 module of Rust-like std.
+A C++ 20 module of Rust-like std.  
 
 ## Compiler
 - clang 19+
@@ -14,7 +14,9 @@ A C++ 20 module of Rust-like std.
 - [ ] mem
 - [ ] thread
 - [ ] sync
-- [ ] mpsc
+  - [ ] mpmc
+  - [ ] mpsc
+  - [ ] once
 - [ ] match/enum
 
 ## Documents

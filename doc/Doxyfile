@@ -1937,7 +1937,7 @@ MATHJAX_CODEFILE       =
 SEARCHENGINE           = YES
 
 # When the SERVER_BASED_SEARCH tag is enabled the search engine will be
-# implemented using a web server instead of a web client using JavaScript. There
+# Impled using a web server instead of a web client using JavaScript. There
 # are two flavors of web server based searching depending on the EXTERNAL_SEARCH
 # setting. When disabled, Doxygen will generate a PHP script for searching and
 # an index file used by the script. When EXTERNAL_SEARCH is enabled the indexing
