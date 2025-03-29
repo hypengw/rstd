@@ -10,7 +10,7 @@ A C++ 20 module of Rust-like std.
 - [x] option
 - [x] result
 - [x] rc
-- [ ] convert
+- [x] convert
 - [ ] mem
 - [ ] thread
 - [ ] sync
