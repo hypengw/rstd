@@ -11,6 +11,8 @@ A C++ 20 module of Rust-like std.
 - [x] result
 - [x] rc
 - [x] convert
+- [ ] iter
+- [ ] slice
 - [ ] mem
 - [ ] thread
 - [ ] sync
