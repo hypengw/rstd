@@ -3,19 +3,22 @@
 A C++ 20 module of Rust-like std.  
 
 ## Compiler
-- clang 19+
+- clang 21+
 
 ## Planned
 - [x] trait
 - [x] option
 - [x] result
-- [x] rc
 - [x] convert
 - [ ] iter
 - [ ] slice
 - [ ] mem
 - [ ] thread
-- [ ] sync
+- alloc
+  - [x] box
+  - [x] rc
+  - [x] arc
+- sync
   - [ ] mpmc
   - [ ] mpsc
   - [ ] once
