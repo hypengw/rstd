@@ -1,8 +1,11 @@
 # Rust-like std for C++
 
 A C++ 20 module of Rust-like std.  
+C++’s language features are exciting, but I’m tired of the std.  
+Made this for coding with c++ easier.  
 
-## Compiler
+## Require
+- c++ 20+
 - clang 21+
 
 ## Planned
