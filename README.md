@@ -15,9 +15,12 @@ Made this for coding with C++ easier.
 - [x] result
 - [x] convert
 - [x] fat ref/ptr
+- [x] thread
+- [ ] fmt
+- [ ] num
+  - [x] nonzero
 - [ ] iter
 - [ ] mem
-- [ ] thread
 - alloc
   - [x] box
   - [x] rc
