@@ -21,6 +21,7 @@ Made this for coding with C++ easier.
   - [x] nonzero
 - [ ] iter
 - [ ] mem
+- [ ] hash
 - alloc
   - [x] box
   - [x] rc
