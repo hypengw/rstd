@@ -16,6 +16,7 @@ Made this for coding with C++ easier.
 - [x] convert
 - [x] fat ref/ptr
 - [x] thread
+- [x] choice(enum)
 - [ ] fmt
 - [ ] num
   - [x] nonzero
@@ -30,7 +31,7 @@ Made this for coding with C++ easier.
   - [ ] mpmc
   - [ ] mpsc
   - [ ] once
-- [ ] match/enum
+- [ ] match
 
 ## Documents
 TODO
