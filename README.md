@@ -6,8 +6,8 @@ C++’s language features are exciting, but I’m tired of the std.
 Made this for coding with C++ easier.  
 
 ## Require
-- c++ 20+
 - clang 21+
+- gcc 15+
 
 ## Planned
 - [x] trait
