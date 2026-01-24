@@ -9,30 +9,6 @@ Made this for coding with C++ easier.
 - clang 21+
 - gcc 15+
 
-## Planned
-- [x] trait
-- [x] option
-- [x] result
-- [x] convert
-- [x] fat ref/ptr
-- [x] thread
-- [x] choice(enum)
-- [ ] fmt
-- [ ] num
-  - [x] nonzero
-- [ ] iter
-- [ ] mem
-- [ ] hash
-- alloc
-  - [x] box
-  - [x] rc
-  - [x] arc
-- sync
-  - [ ] mpmc
-  - [ ] mpsc
-  - [ ] once
-- [ ] match
-
 ## Documents
 TODO
 
@@ -46,3 +22,10 @@ FetchContent_Declare(
   EXCLUDE_FROM_ALL)
 FetchContent_MakeAvailable(rstd)
 ```
+
+## Related
+[Type Systems for Memory Safety](https://borretti.me/article/type-systems-memory-safety)  
+[Borrowing Trouble: The Difficulties Of A C++ Borrow-Checker](https://docs.google.com/document/d/e/2PACX-1vSt2VB1zQAJ6JDMaIA9PlmEgBxz2K5Tx6w2JqJNeYCy0gU4aoubdTxlENSKNSrQ2TXqPWcuwtXe6PlO/pub)  
+[rusty-cpp](https://github.com/shuaimu/rusty-cpp): Bringing Rust's safety to C++  
+[fragile](https://github.com/shuaimu/fragile): A polyglot compiler that supports Rust, C++, Go  
+[cxx](https://github.com/dtolnay/cxx): Safe interop between Rust and C++  
