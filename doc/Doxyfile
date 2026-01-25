@@ -3,7 +3,15 @@ PROJECT_NUMBER         = 0.1.0
 INPUT                  = ../src
 GENERATE_LATEX         = NO
 
+HTML_EXTRA_STYLESHEET  = doxygen-awesome-css/doxygen-awesome.css
+
 RECURSIVE              = YES
+INPUT                  = ../README.md ../include ../src
+STRIP_FROM_INC_PATH    = ../include ../src
+MACRO_EXPANSION        = YES
+
 HIDE_UNDOC_CLASSES     = YES
 HIDE_UNDOC_MEMBERS     = YES
 HIDE_UNDOC_NAMESPACES  = YES
+SHOW_ENUM_VALUES       = YES
+WARN_IF_UNDOC_ENUM_VAL = YES
