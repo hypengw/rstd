@@ -9,8 +9,8 @@ Made this for coding with C++ easier.
 - clang 21+
 - gcc 15+
 
-## Documents
-TODO
+## [Documents](https://hypengw.github.io/rstd/)
+work in progress
 
 ## Installation
 ```cmake
