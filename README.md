@@ -1,6 +1,6 @@
 # Rust-like std for C++
 
-A C++ 20 module of Rust-like std.  
+A C++ 23 module of Rust-like std.  
 
 C++’s language features are exciting, but I’m tired of the std.  
 Made this for coding with C++ easier.  
