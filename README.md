@@ -6,7 +6,7 @@ C++’s language features are exciting, but I’m tired of the std.
 Made this for coding with C++ easier.  
 
 ## Require
-- clang 21+
+- clang 18+
 - gcc 15+
 
 ## [Documents](https://hypengw.github.io/rstd/)
