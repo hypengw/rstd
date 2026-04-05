@@ -10,6 +10,14 @@ Made this for coding with C++ easier.
 - gcc 15+
 - windows(clang 22+)
 
+## limitation
+### Linear Type
+C++ has no linear type support, so types like NotNull and Unique cannot be fully enforced.  
+This project keeps them as part of the API and provides memcpy-like checks for null state.  
+
+### Choice(match)
+No good design for a general Choice interface yet. Option/Result are implemented independently for now and may migrate once a Choice API is designed.  
+
 ## Progress
 
 | Module | Area | Types & APIs |
