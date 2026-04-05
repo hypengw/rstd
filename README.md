@@ -8,6 +8,7 @@ Made this for coding with C++ easier.
 ## Require
 - clang 18+
 - gcc 15+
+- windows(clang 22+)
 
 ## [Documents](https://hypengw.github.io/rstd/)
 work in progress
