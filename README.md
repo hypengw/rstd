@@ -17,8 +17,8 @@ Made this for coding with C++ easier.
 | **core** | types | `Option<T>`, `Result<T,E>` |
 | | traits | `Impl` / `dyn` dispatch, `Clone`, `Copy`, `From` / `Into` / `AsRef` / `AsMut`, `PartialEq` (partial) |
 | | fmt | `Display`, `Debug`, `Formatter`, `format_string`, `Arguments` |
-| | ptr | `NonNull<T>`, `ref<T>`, `mut_ref<T>`, `dyn<Trait>` |
-| | mem | `ManuallyDrop`, `MaybeUninit`, `transmute`, `Pin<T>` |
+| | ptr | `NonNull<T>`(just api, no linear type support), `ref<T>`, `mut_ref<T>`, `dyn<Trait>` |
+| | mem | `ManuallyDrop`, `MaybeUninit`|
 | | str | `str`, `CStr` |
 | | num | `NonZero`, integer traits |
 | | sync | `Atomic<T>`, memory ordering |
