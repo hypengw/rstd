@@ -14,8 +14,8 @@ Made this for coding with C++ easier.
 
 | Module | Area | Types & APIs |
 |--------|------|-------------|
-| **core** | types | `Option<T>`, `Result<T,E>`, `Choice` |
-| | traits | `Impl` / `dyn` dispatch, `Clone`, `Copy`, `Send`, `Sync`, `From` / `Into` / `AsRef` / `AsMut`, `PartialEq` (partial) |
+| **core** | types | `Option<T>`, `Result<T,E>` |
+| | traits | `Impl` / `dyn` dispatch, `Clone`, `Copy`, `From` / `Into` / `AsRef` / `AsMut`, `PartialEq` (partial) |
 | | fmt | `Display`, `Debug`, `Formatter`, `format_string`, `Arguments` |
 | | ptr | `NonNull<T>`, `ref<T>`, `mut_ref<T>`, `dyn<Trait>` |
 | | mem | `ManuallyDrop`, `MaybeUninit`, `transmute`, `Pin<T>` |
@@ -36,7 +36,7 @@ Made this for coding with C++ easier.
 | **runtime** | defaults | default allocator (`operator new`), panic handler (`rstd_panic_impl`) |
 
 ### Not yet implemented
-- **Iterator** / IntoIterator
+- **iter**: Iterator / IntoIterator
 - **collections**: HashMap, BTreeMap
 - **fs**: Path, File, read / write / metadata
 - **net**: TcpStream, TcpListener, UdpSocket
