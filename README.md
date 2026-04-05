@@ -5,10 +5,14 @@ A C++ 20 module of Rust-like std.
 C++’s language features are exciting, but I’m tired of the std.  
 Made this for coding with C++ easier.  
 
+I believe a standalone static-library std can solve many C++ pain points.  
+It doesn't have to mirror another language's stdlib — it could be designed to fit C++ idioms better.  
+My time is limited, so I anchored the design on Rust's std.
+
 ## Require
 - clang 18+
 - gcc 15+
-- windows(clang 22+)
+- windows(clang 22+ with msvc std header)
 
 ## limitation
 ### Linear Type
@@ -17,6 +21,9 @@ This project keeps them as part of the API and provides memcpy-like checks for n
 
 ### Choice(match)
 No good design for a general Choice interface yet. Option/Result are implemented independently for now and may migrate once a Choice API is designed.  
+
+### Auto Trait
+Could perhaps be done with some C++20 reflection magic, but I plan to wait for C++26.
 
 ## Progress
 
