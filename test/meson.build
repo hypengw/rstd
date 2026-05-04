@@ -25,6 +25,7 @@ test_sources = [
   'sync/mpsc.cpp',
   'time.cpp',
   'fmt.cpp',
+  'log.cpp',
 ]
 
 rstd_test = executable('rstd_test',
