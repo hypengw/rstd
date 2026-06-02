@@ -38,6 +38,7 @@ Could perhaps be done with some C++20 reflection magic, but I plan to wait for C
 | | num | `NonZero`, integer traits |
 | | sync | `Atomic<T>`, memory ordering |
 | | ops | `FnOnce`, `FnMut`, `Fn` |
+| | iter | `Iterator`, `IntoIterator`, `FromIterator`, `DoubleEndedIterator`, `ExactSizeIterator`, `FusedIterator`, `Range` |
 | | misc | `Hash` / `Hasher`, `Duration`, `panic` / `PanicInfo`, `slice` (partial) |
 | **alloc** | containers | `Box<T>`, `Vec<T>`, `String`, `CString` |
 | | shared ownership | `Rc<T>` / `Weak<T>`, `Arc<T>` / `Weak<T>` |
@@ -51,7 +52,6 @@ Could perhaps be done with some C++20 reflection magic, but I plan to wait for C
 | **runtime** | defaults | default allocator (`operator new`), panic handler (`rstd_panic_impl`) |
 
 ### Not yet implemented
-- **iter**: Iterator / IntoIterator
 - **collections**: HashMap, BTreeMap
 - **fs**: Path, File, read / write / metadata
 - **net**: TcpStream, TcpListener, UdpSocket
