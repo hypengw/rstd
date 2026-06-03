@@ -6,17 +6,27 @@ rstd_std_sources = [
   'forward.cppm',
   'error.cppm',
   'panicking.cppm',
-  'process.cppm',
+  'env.cppm',
+  'path.cppm',
+  'fs.cppm',
+  'process/mod.cppm',
+  'process/exit_status.cppm',
+  'process/command.cppm',
+  'process/process.cpp',
   'ffi/mod.cppm',
+  'ffi/os_str.cppm',
 ]
 
 # sys sources
 rstd_std_sources += [
   'sys/mod.cppm',
+  'sys/fd.cppm',
   'sys/io/mod.cppm',
+  'sys/io/stdio.cppm',
   'sys/libc/mod.cppm',
   'sys/libc/pthread.cppm',
   'sys/libc/unix.cppm',
+  'sys/libc/windows.cppm',
   'sys/libc/libc.cppm',
   'sys/pal/mod.cppm',
   'sys/pal/unix/mod.cppm',
@@ -28,6 +38,9 @@ rstd_std_sources += [
   'sys/pal/windows/mod.cppm',
   'sys/pal/windows/futex.cppm',
   'sys/pal/windows/time.cppm',
+  'sys/pal/windows/sync/mod.cppm',
+  'sys/pal/windows/sync/mutex.cppm',
+  'sys/pal/windows/sync/condvar.cppm',
   'sys/sync/once_box.cppm',
   'sys/sync/mutex/mod.cppm',
   'sys/sync/mutex/futex.cppm',
@@ -51,6 +64,11 @@ rstd_std_sources += [
 rstd_std_sources += [
   'io/mod.cppm',
   'io/error.cppm',
+  'io/traits.cppm',
+  'io/buffered.cppm',
+  'io/cursor.cppm',
+  'io/util.cppm',
+  'io/stdio.cppm',
 ]
 
 # thread sources

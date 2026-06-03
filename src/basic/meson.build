@@ -3,7 +3,9 @@ rstd_basic_sources = [
   'prelude.cppm',
   'basic.cppm',
   'mtp.cppm',
-  'cppstd.cppm',
+  'mtp.std.cppm',
+  'tuple.cppm',
+  'panic_info.cppm',
 ]
 
 rstd_basic = static_library('rstd.basic',
