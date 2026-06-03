@@ -47,7 +47,7 @@ Could perhaps be done with some C++20 reflection magic, but I plan to wait for C
 | | thread | `spawn`, `sleep`, `park`, `yield_now`, `JoinHandle<T>`, `Builder`, `ThreadId` |
 | | sync | `Mutex<T>` / `MutexGuard`, `mpsc::channel` / `sync_channel` |
 | | process | `Command`, `Child`, `ExitStatus`, `Stdio`, `Output`, `ChildStdin` / `ChildStdout` / `ChildStderr` (impl Read/Write), `abort`, `exit`, `id` |
-| | env | `var`, `set_var`, `remove_var` |
+| | env | `var`, `set_var`, `remove_var`, `args` / `Args`, `args_init` |
 | | time | `Instant`, `SystemTime`, `Duration` |
 | **runtime** | defaults | default allocator (`operator new`), panic handler (`rstd_panic_impl`) |
 
