@@ -9,6 +9,7 @@ rstd_core_sources = [
   'clone.cppm',
   'option.cppm',
   'result.cppm',
+  'enum.cppm',
   'fmt.cppm',
   'panic.cppm',
   'choice.cppm',
