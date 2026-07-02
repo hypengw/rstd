@@ -13,7 +13,6 @@ rstd_core_sources = [
   'fmt.cppm',
   'panic.cppm',
   'choice.cppm',
-  'pin.cppm',
   'hint.cppm',
   'panicking.cppm',
   'memchr.cppm',
