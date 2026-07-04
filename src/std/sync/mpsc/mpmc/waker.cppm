@@ -25,6 +25,8 @@ export struct Entry {
 
     /// Context associated with the thread owning this operation.
     Context cx;
+
+    Entry(Operation oper, void* packet, const Context& cx): oper(oper), packet(packet), cx(cx) {}
 };
 
 /// A queue of threads blocked on channel operations.
@@ -46,7 +48,7 @@ struct Waker {
 
     /// Registers a select operation and a packet.
     void register_with_packet(Operation oper, void* packet, const Context& cx) {
-        selectors.push(Entry { .oper = oper, .packet = packet, .cx = cx });
+        selectors.emplace_back(oper, packet, cx);
     }
 
     /// Unregisters a select operation.
