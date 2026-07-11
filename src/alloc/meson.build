@@ -12,6 +12,9 @@ rstd_alloc_sources = [
   'collections/mod.cppm',
   'collections/btree/node.cppm',
   'collections/btree/map.cppm',
+  'collections/hash/table.cppm',
+  'collections/hash/map.cppm',
+  'hash/random.cppm',
 ]
 
 rstd_alloc = static_library('rstd.alloc',

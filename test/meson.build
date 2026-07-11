@@ -19,6 +19,7 @@ test_sources = [
   'alloc/sync.cpp',
   'alloc/string.cpp',
   'collections/btree_map.cpp',
+  'collections/hash_map.cpp',
   'iter/iterator.cpp',
   'sys/sync/mutex/futex.cpp',
   'sys/sync/mutex/pthread.cpp',
