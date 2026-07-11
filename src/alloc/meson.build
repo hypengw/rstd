@@ -9,6 +9,9 @@ rstd_alloc_sources = [
   'ffi/mod.cppm',
   'ffi/c_str.cppm',
   'vec/mod.cppm',
+  'collections/mod.cppm',
+  'collections/btree/node.cppm',
+  'collections/btree/map.cppm',
 ]
 
 rstd_alloc = static_library('rstd.alloc',
