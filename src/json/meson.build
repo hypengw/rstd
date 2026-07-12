@@ -4,6 +4,7 @@ rstd_json_sources = [
   'error.cppm',
   'value.cppm',
   'parser.cppm',
+  'serialize.cppm',
 ]
 
 rstd_json = static_library('rstd.json',
