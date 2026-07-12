@@ -7,6 +7,9 @@ endif
 test_sources = [
   'trait.cpp',
   'result.cpp',
+    'try.cpp',
+    'try_async.cpp',
+    'try_coroutine.cpp',
   'compile.cpp',
   'option.cpp',
   'clone.cpp',
