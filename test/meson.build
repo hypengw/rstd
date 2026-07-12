@@ -6,6 +6,7 @@ endif
 
 test_sources = [
   'trait.cpp',
+  'deref.cpp',
   'result.cpp',
     'try.cpp',
     'try_async.cpp',
