@@ -14,6 +14,7 @@ test_sources = [
   'compile.cpp',
   'option.cpp',
   'clone.cpp',
+  'clone_tuple.cpp',
   'convert.cpp',
   'enum.cpp',
   'alloc/rc.cpp',
