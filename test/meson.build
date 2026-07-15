@@ -30,6 +30,7 @@ test_sources = [
   'sys/sync/mutex/futex.cpp',
   'sys/sync/mutex/pthread.cpp',
   'thread/thread.cpp',
+  'thread/blocking_task_group.cpp',
   'num/nonzero.cpp',
   'thread.cpp',
   'sync/mpsc.cpp',

@@ -79,6 +79,7 @@ rstd_std_sources += [
   'thread/main_thread.cppm',
   'thread/builder.cppm',
   'thread/functions.cppm',
+  'thread/blocking_task_group.cppm',
   'thread/join_handle.cppm',
   'thread/lifecycle.cppm',
   'thread/scoped.cppm',
