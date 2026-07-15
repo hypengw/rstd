@@ -14,6 +14,7 @@ rstd_core_sources = [
   'try.cppm',
   'enum.cppm',
   'fmt.cppm',
+  'fmt/float.cppm',
   'panic.cppm',
   'choice.cppm',
   'hint.cppm',
