@@ -3,6 +3,7 @@ rstd_core_sources = [
   'mod.cppm',
   'prelude.cppm',
   'core.cppm',
+  'array.cppm',
   'trait.cppm',
   'marker.cppm',
   'convert.cppm',
