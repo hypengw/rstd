@@ -6,6 +6,15 @@ endif
 
 test_sources = [
   'trait.cpp',
+  'any.cpp',
+  'argparse/definition.cpp',
+  'argparse/parsing.cpp',
+  'argparse/relations.cpp',
+  'argparse/subcommands.cpp',
+  'argparse/values.cpp',
+  'argparse/help.cpp',
+  'argparse/lifecycle.cpp',
+  'argparse/errors.cpp',
   'array.cpp',
   'deref.cpp',
   'result.cpp',
@@ -41,7 +50,7 @@ test_sources = [
 
 rstd_test = executable('rstd_test',
   test_sources,
-  dependencies : [rstd_dep, gtest_dep],
+  dependencies : [rstd_dep, rstd_argparse_dep, gtest_dep],
 )
 
 test('rstd_test', rstd_test)
